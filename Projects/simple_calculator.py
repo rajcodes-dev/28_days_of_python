@@ -1,5 +1,6 @@
 run = True
 while(run):
+    
     num1 = float(input("Enter the number 1: "))
     num2 = float(input("Enter the number 2: "))
     operator = input("Enter the operator(+,-,*,/): ")
@@ -23,6 +24,6 @@ while(run):
     else:
         print("Invalid")
     
-    choice = input("Do you want to continue(y/n):").lower()
-    if choice != 'y':
+    choice = input("Do you want to continue?(y/n)").lower()
+    if choice == 'n':
         run = False
